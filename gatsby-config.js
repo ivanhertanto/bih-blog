@@ -1,4 +1,9 @@
 module.exports = {
+  siteMetadata: {
+    title: `Ivan's Blog`,
+    description: `Personal Blog`,
+    author: `Ivan`,
+  },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -20,5 +25,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
