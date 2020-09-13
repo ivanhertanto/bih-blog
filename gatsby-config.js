@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Ivan's Blog`,
     description: `Personal Blog`,
-    author: `Ivan`,
+    author: `Bernardus Ivan Hertanto`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
