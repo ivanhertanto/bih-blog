@@ -1,0 +1,41 @@
+---
+title: Cheat Sheet
+slug: cheat-sheet
+image: ./images/cheat-sheet.png
+date: 2019-01-01
+author: Bernardus Ivan Hertanto
+---
+
+**SSH Key Gen**
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "user id or email"
+```
+
+<br />
+
+**Check Key**
+
+```bash
+ssh -T git@github.com
+```
+
+<br />
+
+**MD5deep**
+
+```bash
+md5deep -rels * > checksums.md5
+md5deep -rx checksums.md5 *
+```
+
+<br />
+
+**Tmux**
+
+```bash
+    tmux setting
+    tmux set -g mouse on \
+    tmux set -g history-limit 9999
+    tmux show -g | cat > ~/.tmux.conf
+```
